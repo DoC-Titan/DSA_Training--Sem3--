@@ -1,5 +1,5 @@
 package Day16.LamdaExpression;
-
+//SUP NIGGA
 public class LamdaExp {
     static class NotLamdaExp{
 
@@ -46,6 +46,7 @@ public class LamdaExp {
 
 
 
+    
 
     static class Eligibility{
 
