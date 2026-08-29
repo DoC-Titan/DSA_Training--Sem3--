@@ -65,7 +65,7 @@ public class LamdaExp {
                         System.out.println("You are eligible");
                     }
                     else if(age >= 18 && "Female".equals(data)){
-                        System.out.println("You are eligible");
+                        System.out.println("You are eligible , YEA");
                     }
 
                     else{
