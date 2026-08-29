@@ -1,7 +1,7 @@
 package Day16.LamdaExpression;
-//SUP NIGGA
-public class LamdaExp {
-    static class NotLamdaExp{
+//SUP NIGGA, debugging
+public class LambdaExp {
+    static class NotLambdaExp{
 
         static class Interface {
             @FunctionalInterface
@@ -21,7 +21,7 @@ public class LamdaExp {
     static class Main {
         // Fixed: Standard signature requires 'public static void main(String[] args)'
         public static void main(String[] args) {
-            NotLamdaExp.A a = new NotLamdaExp.A();
+            NotLambdaExp.A a = new NotLambdaExp.A();
             a.Greet("Rohan");
         }
 
