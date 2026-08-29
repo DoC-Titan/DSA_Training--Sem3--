@@ -59,7 +59,8 @@ public class LamdaExp {
         static class Main{
             public static void main(String[] args) {
                 Interface.Eligible Greet = ((age, data) -> {
-                    if(age >= 21 && "Male".equals(data) ){
+                    boolean IsEligible = age >= 21 && "Male".equals(data);
+                    if(IsEligible){
                         System.out.println("You are eligible");
                     }
                     else if(age >= 18 && "Female".equals(data)){
@@ -70,7 +71,9 @@ public class LamdaExp {
                         System.out.println("You are not eligible");
                     }
                 });
-                Greet.Elle(19 , "Male");
+                Greet.Elle(19, "Male");   // Prints: You are not eligible (under 21)
+                Greet.Elle(21, "Male");   // Prints: You are eligible
+                Greet.Elle(19, "Female"); // Prints: You are eligible (18+)
             }
         }
 
