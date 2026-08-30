@@ -10,7 +10,7 @@ class Node {
 }
 
 
-class LinkedListStack {
+public class LinkedListStack {
 
 
     private Node head;
